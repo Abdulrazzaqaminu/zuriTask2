@@ -1,0 +1,9 @@
+services:
+  - name: web
+    buildCommand: npm install && npm run build
+    startCommand: node server.js
+    healthCheckPath: /
+
+env:
+  - key: NODE_ENV
+    value: production
