@@ -19,7 +19,6 @@ const connect = async (): Promise<void> => {
         throw error;
     }
 }
-});
 // Middlewares
 app.use(express.json());
 app.use("/api" ,personRoute);
