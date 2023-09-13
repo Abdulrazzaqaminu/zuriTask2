@@ -1,9 +1,5 @@
 # API Documentation
 
-## Overview
-
-[A simple REST API capable of CRUD operations on a "person" resource with just a "name" field.]
-
 #### ENDPOINTS
 
 ## API Base URL
