@@ -1,9 +1,5 @@
 services:
   - name: web
     buildCommand: npm install && npm run build
-    startCommand: node dist/server.js
+    startCommand: node dist/server.js && ts-node keep-alive.ts
     healthCheckPath: /
-
-  - name: keep-alive
-    buildCommand: npm install
-    startCommand: ts-node keep-alive.ts
