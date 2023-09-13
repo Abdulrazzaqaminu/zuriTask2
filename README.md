@@ -1,3 +1,7 @@
+## Overview
+
+[A simple REST API capable of CRUD operations on a "person" resource with just a "name" field, and how to deploy]
+
 ### LOCAL DEVELOPMENT
 
 ## Clone Repository:
